@@ -6,9 +6,9 @@ find all occurrences of http://rtorr.local:3000 and replace it with your machine
     
 install nodejs
 
-    npm install
+    sudo npm install
 
-    sudo node server.js
+    node server.js
 
 to develop
  - install coffeescript
