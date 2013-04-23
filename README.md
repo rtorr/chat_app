@@ -13,4 +13,5 @@ install nodejs
 to develop
  - install coffeescript
  - cd to project folder
- - coffee -w -o ./ -c src/
+
+    coffee -w -o ./ -c src/
