@@ -1,0 +1,21 @@
+<div class="chat view">
+  <div class="container">
+    <div id="posts" class="row">
+      <div id="posts_container">
+        <div class="span12 card" data-ng-repeat="post in posts">
+          <div class="post-text">
+            <p>{{post.post_text}}</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="add-post" class="row">
+      <div class="span12">
+        <form class="form-inline" ng-submit="insert_post()">
+          <input data-ng-model="newPost.post_text" type="text" placeholder="post_text">
+        </form>
+      </div>
+    </div>
+  </div>
+ </div>

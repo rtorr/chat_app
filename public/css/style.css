@@ -1,0 +1,26 @@
+
+body {
+
+}
+
+#posts {
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#posts_container {
+  clear: both;
+  display: block;
+  margin-bottom: -300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.post-text {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}

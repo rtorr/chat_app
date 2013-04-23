@@ -1,0 +1,9 @@
+{
+  "name":  "chat_app",
+  "version": "0.0.1",
+  "directory" : "./public/libs",
+  "dependencies": {
+    "angular": "1.0.6",
+    "bootstrap": "git@github.com:twitter/bootstrap.git#v2.3.1"
+  }
+}
