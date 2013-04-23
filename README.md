@@ -8,7 +8,7 @@ install nodejs
 
     npm install
 
-    node server.js
+    sudo node server.js
 
 to develop
  - install coffeescript
